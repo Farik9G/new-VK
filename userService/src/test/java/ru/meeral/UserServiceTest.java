@@ -20,12 +20,12 @@ public class UserServiceTest {
 
     @Test
     public void testCreateAndGetUser() {
-        User user = new User("1", "Александр");
+        User user = new User("1", "РђР»РµРєСЃР°РЅРґСЂ");
         userService.createUser(user);
 
         User fetchedUser = userService.getUserById("1");
         assertNotNull(fetchedUser);
-        assertEquals("Александр", fetchedUser.getName());
+        assertEquals("РђР»РµРєСЃР°РЅРґСЂ", fetchedUser.getName());
     }
 
     @Test
