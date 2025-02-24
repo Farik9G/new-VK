@@ -1,26 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/chatService/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/chatService/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/common/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/common/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/friendService/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/friendService/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/friendService/src/test/java/ru/meeral/FriendServiceTest.java" charset="windows-1251" />
-    <file url="file://$PROJECT_DIR$/notificationService/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/notificationService/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/photoService/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/photoService/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/friendService/src/test/java/ru/meeral/FriendServiceTest.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/recommendationService/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/recommendationService/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/untitled/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/untitled/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/untitledd/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/untitledd/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/userService/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/userService/src/main/resources" charset="UTF-8" />
   </component>
 </project>

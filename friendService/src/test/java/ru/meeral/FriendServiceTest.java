@@ -19,9 +19,9 @@ public class FriendServiceTest {
     @BeforeEach
     void setUp() {
         friendService = new FriendServiceImpl();
-        user1 = new User("1", "Александр");
-        user2 = new User("2", "Олег");
-        user3 = new User("3", "Павел");
+        user1 = new User("1", "РђР»РµРєСЃР°РЅРґСЂ");
+        user2 = new User("2", "РћР»РµРі");
+        user3 = new User("3", "РџР°РІРµР»");
     }
 
     @Test
@@ -30,14 +30,14 @@ public class FriendServiceTest {
         List<User> friendsOfUser1 = friendService.getFriends(user1);
         List<User> friendsOfUser2 = friendService.getFriends(user2);
 
-        assertTrue(friendsOfUser1.contains(user2), "User1 должен иметь в друзьях User2.");
-        assertTrue(friendsOfUser2.contains(user1), "User2 должен иметь в друзьях User1.");
+        assertTrue(friendsOfUser1.contains(user2), "User1 РґРѕР»Р¶РµРЅ РёРјРµС‚СЊ РІ РґСЂСѓР·СЊСЏС… User2.");
+        assertTrue(friendsOfUser2.contains(user1), "User2 РґРѕР»Р¶РµРЅ РёРјРµС‚СЊ РІ РґСЂСѓР·СЊСЏС… User1.");
     }
 
     @Test
     public void testGetFriendsListFromUserWithoutFriends() {
         List<User> friends = friendService.getFriends(user3);
-        assertTrue(friends.isEmpty(), "Пользователь без друзей должен получить пустой список.");
+        assertTrue(friends.isEmpty(), "РџРѕР»СЊР·РѕРІР°С‚РµР»СЊ Р±РµР· РґСЂСѓР·РµР№ РґРѕР»Р¶РµРЅ РїРѕР»СѓС‡РёС‚СЊ РїСѓСЃС‚РѕР№ СЃРїРёСЃРѕРє.");
     }
 
 }
